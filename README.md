@@ -1,24 +1,10 @@
 This tool will request and set temporary credentials in your shell environment variables for a given role.
 
 ## Installation
-
-On OS X, the best way to get it is to use homebrew:
-
-```bash
-brew install remind101/formulae/assume-role
-```
-
-If you have a working Go 1.6/1.7 environment:
+If you have a working Go 1.19 environment:
 
 ```bash
-$ go get -u github.com/remind101/assume-role
-```
-
-On Windows with PowerShell, you can use [scoop.sh](http://scoop.sh/)
-
-```cmd
-$ scoop bucket add extras
-$ scoop install assume-role
+$ go install github.com/90poe/assume-role@v1.0.0
 ```
 
 ## Configuration
