@@ -1,4 +1,4 @@
-module github.com/remind101/assume-role
+module github.com/90poe/assume-role
 
 go 1.19
 
