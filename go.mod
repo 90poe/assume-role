@@ -1,10 +1,11 @@
 module github.com/90poe/assume-role
 
-go 1.19
+go 1.22
 
 require (
-	github.com/aws/aws-sdk-go v1.44.133
+	github.com/aws/aws-sdk-go v1.51.2
 	gopkg.in/yaml.v2 v2.4.0
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
